@@ -5,8 +5,6 @@ import { EditPage } from './pages/EditPage'
 import { RootPage } from './pages/RootPage'
 
 import { FrigoProvider } from './store/frigo-context'
-
-import CSS from './App.module.css'
 import { TestPage } from './pages/TestPage'
 
 const route = createBrowserRouter([
