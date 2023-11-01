@@ -1,0 +1,15 @@
+.body {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.body p {
+	margin: 0;
+	max-width: 100%;
+	word-wrap: break-word;
+}
+
+.body p:not(:only-child) {
+	max-width: 90%;
+}

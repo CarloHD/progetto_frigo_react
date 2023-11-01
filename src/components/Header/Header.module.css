@@ -1,0 +1,32 @@
+.header {
+	background-color: var(--main-bg-color);
+	/* background-color: #689790; */
+}
+.header h1 {
+	border: none;
+}
+
+.rowNavbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pulsanteNotifica {
+	position: relative;
+
+	display: flex;
+	padding: 0.7rem;
+	border-radius: 4px;
+}
+
+.pulsanteNotifica:hover {
+	background-color: #eeeeee;
+}
+
+.badgeNotifiche {
+	position: absolute;
+	top: -5px;
+	left: 19px;
+	background-color: #a94442;
+}

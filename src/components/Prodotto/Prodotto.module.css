@@ -1,0 +1,14 @@
+.prodotto {
+	position: relative;
+}
+
+.controls {
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	transition: opacity ease-in 150ms;
+}
+
+.prodotto:hover .controls {
+	opacity: 1;
+}

@@ -1,0 +1,8 @@
+.navlink {
+	font-weight: 600;
+
+}
+
+li.active {
+	background-color: red !important;
+}

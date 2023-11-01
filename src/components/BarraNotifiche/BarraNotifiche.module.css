@@ -1,0 +1,9 @@
+.barraNotifiche {
+	overflow: scroll;
+	height: 100vh;
+	background-color: var(--sec-bg-color);
+	/* background-color: rgba(175, 255, 247); */
+
+	box-shadow: -1px 0px 10px 0px rgba(48, 48, 48, 0.7);
+}
+

@@ -1,0 +1,29 @@
+.colAnimation {
+	transition: all ease-in-out 300ms;
+}
+
+.colNotifiche {
+	position: fixed;
+}
+
+.toggleOn {
+	right: 0%;
+}
+.toggleOff {
+	right: -41.7%;
+}
+
+/* col-sm*/
+@media screen and (min-width: 768px) {
+	.toggleOff {
+		right: -33.3%;
+	}
+}
+
+/* col-md*/
+
+@media screen and (min-width: 992px) {
+	.toggleOff {
+		right: -25%;
+	}
+}
