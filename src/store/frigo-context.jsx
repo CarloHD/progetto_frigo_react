@@ -198,7 +198,7 @@ export function FrigoProvider (props) {
     //     return valoreStato(a.stato) > valoreStato(b.stato)
     //   })
     // )
-  }, [listaProdotti])
+  }, [listaNotifiche, listaProdotti])
 
   return (
     <frigoContext.Provider

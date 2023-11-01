@@ -6,7 +6,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react'
 import * as cameraAPI from '../../API/camera_capture/camera_capture'
-import * as tesseractAPI from '../../API/tesseract/tesseract'
+// import * as tesseractAPI from '../../API/tesseract/tesseract'
 
 import CSS from './InputFoto.module.css'
 import { textOCR } from '../../API/OCRspace/OCRspace'
