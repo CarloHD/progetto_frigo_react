@@ -9,8 +9,6 @@ export function Header ({ toggleNotifiche, statoNotifiche }) {
 
   const numeroNotifiche = frigoCtx.notifiche.lista.length
 
-  const notificheVisibili = statoNotifiche
-
   return (
     <header className={`col-xs-12 ${CSS.header}`}>
       <div className='row'>
